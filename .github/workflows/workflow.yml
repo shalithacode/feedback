@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/shalitha98/feedback:${{ github.sha}}
+          tags: ${{ secrets.DOCKER_USERNAME }}/shalitha98/feedback:v1
