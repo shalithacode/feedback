@@ -40,7 +40,7 @@ jobs:
   deploy:
     name: Deploy to GKE
     runs-on: ubuntu-latest
-    needs: [docker]
+    needs: build
     environment: production
 
     permissions:
